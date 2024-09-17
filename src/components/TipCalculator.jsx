@@ -35,7 +35,7 @@ const TipCalculator = () => {
   const total = isInputsValid ? (bill * (1 + tip / 100)) / people : 0;
 
   return (
-    <div className='flex flex-row justifiy-center gap-5'>
+    <div className='flex  justifiy-center gap-5 flex-col md:flex-row'>
       <div>
         <NumberInput
           label="Bill"
